@@ -36,7 +36,6 @@ body {
 
 table {
   border-radius: 5px;
-  overflow: hidden;
   margin-bottom: 2rem;
   border-collapse: collapse;
 }
@@ -54,10 +53,7 @@ td, th {
   margin: 4rem auto;
   padding: 2rem;
   background: white;
-}
-
-.box, .wrapper {
-  box-shadow: 0 0 3px 5px rgba(0,0,0,0.08653);
+  box-shadow: 0 0 3px 5px rgba(0,0,0,1);
 }
 a {
   color: var(--blue);
